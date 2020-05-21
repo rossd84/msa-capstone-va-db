@@ -1,18 +1,24 @@
 {
-  "name": "todolist-db",
-  "version": "0.0.0",
-  "private": true,
+  "name": "personal_assistant_db",
+  "version": "1.0.0",
+  "description": "server for personal_assistant app",
+  "main": "index.js",
   "scripts": {
-    "start": "node ./bin/www"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rossd84/msa-capstone-va-db.git"
+  },
+  "author": "Darby Ross",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rossd84/msa-capstone-va-db/issues"
+  },
+  "homepage": "https://github.com/rossd84/msa-capstone-va-db#readme",
   "dependencies": {
-    "cookie-parser": "^1.4.5",
     "cors": "^2.8.5",
-    "debug": "~2.6.9",
-    "express": "^4.16.4",
-    "http-errors": "^1.6.3",
-    "jade": "~1.11.0",
-    "morgan": "^1.9.1",
+    "express": "^4.17.1",
     "mysql": "^2.18.1"
   }
 }
